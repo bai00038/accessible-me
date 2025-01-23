@@ -52,7 +52,7 @@ img {
   padding: 1rem;
 }
 
-/* adding focus state */
+/* adding states to nav */
 .main-nav a:focus-visible {
   outline: 2px solid rgb(52, 164, 230);
   border-radius: 4px;
