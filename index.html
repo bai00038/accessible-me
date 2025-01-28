@@ -18,6 +18,8 @@
   <div class="container">
     <ul class="skip_links">
       <li><a href="#main-nav">Skip to main nav</a></li>
+      <li><a href="#main-content">Skip to main content</a></li>
+      <li><a href="#form">Skip to the form</a></li>
     </ul>
   </div>
 
@@ -36,23 +38,23 @@
         <img class="banner" src="https://picsum.photos/1200/900" alt="banner">
       </div>
     </div>
-    <div class="main-content">
-      <h1 role="heading">Welcome to Jam Box</h1>
+    <div class="main-content" id="main-content">
+      <h2 role="heading">Welcome to Jam Box</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa
         eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio
         quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam
         omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto
         error voluptatibus.</p>
-      <div class="owner">
-        <h1 role="heading">Meet the owner</h1>
+      <div class="owner" id="owner">
+        <h2 role="heading">Meet the owner</h2>
         <ul role="list" itemscope itemtype="https://schema.org/Person">
           <li role="listitem" itemprop="name">Name: John Doe</li>
           <li role="listitem" itemprop="jobTitle">Title: CEO</li>
           <li role="listitem" itemprop="email">Email: johnjoe@jambox.ca</li>
           <li role="listitem" itemprop="telephone">Phone: 613-000-0000</li>
         </ul>
-        <h1 role="heading">Address</h1>
+        <h2 role="heading">Address</h2>
         <div itemscope itemtype="https://schema.org/PostalAddress">
           <span>Jambox Studios</span>
           <span itemprop="streetAddress">123 Guitar Road,</span>
@@ -61,7 +63,7 @@
         </div>
       </div>
       <div class="contact-section">
-        <h1 role="heading">Contact Us</h1>
+        <h2 role="heading">Contact Us</h2>
 
         <!-- adding label to form -->
         <form id="form" role="form" action="thanks.html">
